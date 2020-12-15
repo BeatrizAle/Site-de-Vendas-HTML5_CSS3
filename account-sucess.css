@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo h1 {
+    text-align: center;
+    padding: 50px;
+}
+
+.titulo p {
+    text-align: center;
+    margin-top: -42px;
+    font-size: 25px;
+    color: deeppink;
+}
+
+.information {
+    width: 371px;
+    height: 239px;
+    background-color: pink;
+    margin-left: 500px;
+    margin-top: 70px;
+    border-radius: 10px;
+    border: 1px solid deeppink
+}
+
+.information p {
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.information .p-inicial {
+    margin-left: -167px;
+    padding-top: 10px;
+}
+
+.information .p-inicial p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.information .p-inicial p button {
+    width: 101px;
+    font-size: 14px;
+    height: 24px;
+    background-color: black;
+    color: pink;
+    border-radius: 10px;
+}
+
+.information .login {
+    margin-left: 146px;
+    padding-top: 0px;
+}
+
+.information .login p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.information .login button {
+    width: 101px;
+    font-size: 14px;
+    height: 24px;
+    background-color: black;
+    color: pink;
+    border-radius: 10px;
+}

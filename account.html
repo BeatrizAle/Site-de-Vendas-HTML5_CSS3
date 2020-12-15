@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="account.css">
+    <title>Criar conta</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1 id="titulo">Criar conta</h1>
+        <p id="subtitulo"> Complete suas informações</p>
+        <br>
+    </div>
+    <div class="global">
+        <form>
+            <fieldset class="cadastro">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+
+                <div>
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+
+            </fieldset>
+            <div class="idade">
+                <label for="idade">Idade:</label>
+                <input type="text" name="idade" id="idade">
+            </div>
+
+            <div class="email">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <fieldset class="senhas">
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha">
+                </div>
+                <div>
+                    <label for="senha">Confirmar senha:</label>
+                    <input type="password" name="confirmar-senha" id="confirmar-senha">
+                </div>
+
+
+            </fieldset>
+            <br> <br>
+            <h2>Forma de pagamento:</h2>
+            <div class="cartao">
+                <label id="selecione">Selecione forma de pagamento:</label>
+                <select id="cartao">
+                    <option selected disabled value="">Selecione </option>
+                    <option>Mastercard</option>
+                    <option>Elo</option>
+                    <option>Visa</option>
+                    <option>American Express</option>
+                </select>
+
+                <div class="numero-cartao">
+                    <label for="numero-cartao">Numero do Cartão:</label>
+                    <input type="text" name="numero-cartao" id="numero-cartao">
+                </div>
+                <div class="codigo-seguranca">
+                    <label for="codigo-seguranca">Código de Seguranca:</label>
+                    <input type="text" name="codigo-seguranca" id="codigo-seguranca">
+                </div>
+                <button> <a href="account-sucess.html">Confirmar</a></button>
+        </form>
+        </div>
+</body>
+
+</html>

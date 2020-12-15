@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    text-align: center;
+    font-weight: bold;
+    margin: 44px;
+}
+
+.card-login {
+    width: 400px;
+    height: 242px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 1px solid deeppink;
+    margin-left: 485px;
+}
+
+.email {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.email label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.email input {
+    width: 250px
+}
+
+.senha {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.senha label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 55px;
+    margin-left: 145px;
+    width: 95px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: black;
+    color: pink;
+}

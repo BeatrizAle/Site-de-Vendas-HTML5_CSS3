@@ -1,0 +1,393 @@
+.container .container-banner {
+    width: 908px;
+    height: 442px;
+    margin-top: 20px;
+    margin-left: 316px;
+    border-radius: 5px;
+    border: aliceblue;
+    position: relative;
+    overflow: hidden;
+}
+
+.container .container-banner .foto {
+    width: 908px;
+    height: 442px;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    opacity: 0;
+}
+
+.foto:nth-child(1) {
+    animation-delay: 8s;
+}
+
+.foto:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.foto:nth-child(3) {
+    animation-delay: 10s;
+}
+
+.foto:nth-child(4) {
+    animation-delay: 15s;
+}
+
+@keyframes animacao {
+    25% {
+        opacity: 1;
+        transform: scale(1.1, 1.1);
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.global {
+    position: relative;
+}
+
+.container .container1 {
+    width: 258px;
+    height: 236px;
+    background-color: purple;
+    margin-left: 964px;
+    margin-top: 23px;
+}
+
+.container .container1 .foto-container1 {
+    width: 258px;
+    height: 236px;
+}
+
+.container .container2 {
+    width: 285px;
+    height: 100px;
+    background-color: black;
+    margin-left: 627px;
+    margin-top: -236px;
+}
+
+.container .container2 h1 {
+    color: white;
+    padding-top: 6px;
+}
+
+.container .container2 p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container .container2-1 {
+    width: 285px;
+    height: 100px;
+    background-color: purple;
+    margin-left: 627px;
+    margin-top: 36px;
+}
+
+.container .container2-1 .foto-container2-1 {
+    width: 285px;
+    height: 100px;
+}
+
+.container .container3 {
+    width: 258px;
+    height: 236px;
+    background-color: purple;
+    margin-left: 318px;
+    margin-top: -236px;
+}
+
+.container .container3 .foto-container3 {
+    width: 258px;
+    height: 236px;
+}
+
+.container .container4 {
+    width: 656px;
+    height: 236px;
+    background-color: purple;
+    margin-left: 318px;
+    margin-top: 21px;
+}
+
+.container .container4 .foto-container {
+    width: 656px;
+    height: 236px;
+}
+
+.container .container5 {
+    width: 250px;
+    height: 236px;
+    background-color: #D3D3D3;
+    margin-left: 656px;
+    margin-top: -240px;
+}
+
+.container .container5 h1 {
+    font-size: 20px;
+    padding-top: 56px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .container5 p {
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text h1 {
+    margin-top: 31px;
+    font-size: 26px;
+    font-family: arial;
+}
+
+.text p {
+    margin-top: -19px;
+    padding-left: 364px;
+    font-size: 16px;
+    font-family: arial;
+}
+
+.shop-cards .card1 {
+    height: 163px;
+    width: 163px;
+    background-color: purple;
+    margin-top: 15px;
+}
+
+.shop-cards .card1 .foto-card1 {
+    height: 163px;
+    width: 163px;
+}
+
+.shop-cards .card1 .card-info1 {
+    height: 75px;
+    width: 160px;
+    background-color: lightpink;
+    border-color: black;
+    border-style: inset;
+    border-width: 0.2px;
+    border-top: none;
+    margin-top: -7px;
+    border-radius: 3px;
+}
+
+.shop-cards .card1 .card-info1 button {
+    background-color: black;
+    color: pink;
+    margin-left: 31px;
+    border-radius: 50px;
+    margin-top: 9px;
+}
+
+.shop-cards .card1 h1 {
+    font-size: 15px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 13px;
+}
+
+.shop-cards .card1 p {
+    font-size: 15px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 13px;
+}
+
+.shop-cards .card2 {
+    height: 163px;
+    width: 163px;
+    background-color: purple;
+    margin-top: 15px;
+    margin-left: 186px;
+    margin-top: -163px;
+}
+
+.shop-cards .card2 .foto-card2 {
+    height: 163px;
+    width: 163px;
+}
+
+.shop-cards .card2 .card-info2 {
+    height: 75px;
+    width: 160px;
+    background-color: lightpink;
+    border-color: black;
+    border-style: inset;
+    border-width: 0.2px;
+    border-top: none;
+    margin-top: -7px;
+    border-radius: 3px;
+}
+
+.shop-cards .card2 .card-info2 button {
+    background-color: black;
+    color: pink;
+    margin-left: 31px;
+    border-radius: 50px;
+    margin-top: 9px;
+}
+
+.shop-cards .card2 h1 {
+    font-size: 15px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 13px;
+}
+
+.shop-cards .card2 p {
+    font-size: 15px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 13px;
+}
+
+.shop-cards .card3 {
+    height: 163px;
+    width: 163px;
+    background-color: purple;
+    margin-top: 15px;
+    margin-left: 374px;
+    margin-top: -163px;
+}
+
+.shop-cards .card3 .foto-card3 {
+    height: 163px;
+    width: 163px;
+}
+
+.shop-cards .card3 .card-info3 {
+    height: 75px;
+    width: 160px;
+    background-color: lightpink;
+    border-color: black;
+    border-style: inset;
+    border-width: 0.2px;
+    border-top: none;
+    margin-top: -7px;
+    border-radius: 3px;
+}
+
+.shop-cards .card3 .card-info3 button {
+    background-color: black;
+    color: pink;
+    margin-left: 31px;
+    border-radius: 50px;
+    margin-top: 9px;
+}
+
+.shop-cards .card3 h1 {
+    font-size: 15px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 13px;
+}
+
+.shop-cards .card3 p {
+    font-size: 15px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 13px;
+}
+
+.shop-cards .card4 {
+    height: 163px;
+    width: 163px;
+    background-color: purple;
+    margin-top: 15px;
+    margin-left: 559px;
+    margin-top: -163px;
+}
+
+.shop-cards .card4 .foto-card4 {
+    height: 163px;
+    width: 163px;
+}
+
+.shop-cards .card4 .card-info4 {
+    height: 75px;
+    width: 160px;
+    background-color: lightpink;
+    border-color: black;
+    border-style: inset;
+    border-width: 0.2px;
+    border-top: none;
+    margin-top: -7px;
+    border-radius: 3px;
+}
+
+.shop-cards .card4 .card-info4 button {
+    background-color: black;
+    color: pink;
+    margin-left: 31px;
+    border-radius: 50px;
+    margin-top: 9px;
+}
+
+.shop-cards .card4 h1 {
+    font-size: 15px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 13px;
+}
+
+.shop-cards .card4 p {
+    font-size: 15px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 13px;
+}
+
+.shop-cards .card5 {
+    height: 163px;
+    width: 163px;
+    background-color: purple;
+    margin-top: 15px;
+    margin-left: 747px;
+    margin-top: -163px;
+}
+
+.shop-cards .card5 .foto-card5 {
+    height: 163px;
+    width: 163px;
+}
+
+.shop-cards .card5 .card-info5 {
+    height: 75px;
+    width: 160px;
+    background-color: lightpink;
+    border-color: black;
+    border-style: inset;
+    border-width: 0.2px;
+    border-top: none;
+    margin-top: -7px;
+    border-radius: 3px;
+}
+
+.shop-cards .card5 .card-info5 button {
+    background-color: black;
+    color: pink;
+    margin-left: 31px;
+    border-radius: 50px;
+    margin-top: 9px;
+}
+
+.shop-cards .card5 h1 {
+    font-size: 15px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 13px;
+}
+
+.shop-cards .card5 p {
+    font-size: 15px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 13px;
+}

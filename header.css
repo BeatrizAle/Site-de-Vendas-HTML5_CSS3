@@ -1,0 +1,139 @@
+.header .logo img {
+    width: 92px;
+    height: 77px;
+    padding-left: 62px;
+    display: flex;
+}
+
+.header {
+    width: 100%;
+    height: 78px;
+    border-style: solid;
+    border-color: pink;
+    border-width: 2px;
+    display: flex;
+    position: relative;
+    border-top: none;
+}
+
+.busca {
+    padding-left: 28px;
+}
+
+#divBusca {
+    border: groove;
+    border-radius: 5px;
+    width: 318px;
+    height: 26px;
+    margin: 10px 10px;
+}
+
+#txtBusca {
+    background-color: transparent;
+    padding-left: 10px;
+    font-size: 12px;
+    border: none;
+    height: 32px;
+    width: 191px;
+}
+
+#btnBusca button {
+    border: none;
+    float: right;
+    height: 29px;
+    border-radius: 5px;
+    width: 90px;
+    margin: -2px;
+    font-weight: arial;
+    padding: 5px;
+    background: black;
+    color: pink;
+}
+
+.header .header-home nav {
+    margin-top: -8px;
+}
+
+.header .header-home ul {
+    display: flex;
+    list-style: none;
+}
+
+.header .header-home ul li {
+    margin: 15px;
+}
+
+.header-home2 {
+    display: flex;
+    padding-left: 405px;
+    padding-top: 21px;
+}
+
+.header-home2 .conta {
+    display: flex;
+    width: 74px;
+    height: 22px;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 5px;
+}
+
+.header-home2 .conta button {
+    color: pink;
+    background-color: black;
+}
+
+.header-home2 .login {
+    margin-left: 20px;
+    display: flex;
+    width: 81px;
+    height: 20px;
+    text-align: center;
+    background-color: black;
+    margin-top: 3px;
+}
+
+.header-home2 .login button {
+    color: pink;
+    background-color: black;
+    padding-left: 4px;
+}
+
+.header-home2 .menu-contato ul {
+    list-style: none;
+    display: flex;
+    margin-top: 23px;
+    margin-left: -314px;
+}
+
+.header-home2 .menu-contato ul li {
+    display: flex;
+    margin: 15px;
+}
+
+.header-home2 .menu-contato svg {
+    width: 15px;
+    height: 15px;
+    margin: 3px;
+    margin-top: 0px;
+}
+
+.menu-contato a:hover {
+    color: #f00887;
+    transform: scale(1.1);
+}
+
+.menu-contato a {
+    color: #f00887;
+    text-decoration: none;
+}
+
+.header-home a {
+    color: #f00887;
+    text-decoration: none;
+}
+
+.header-home a:hover {
+    color: #f00887;
+    transform: scale(1.1);
+}

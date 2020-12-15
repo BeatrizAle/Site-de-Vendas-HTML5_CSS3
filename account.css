@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+
+#subtitulo {
+    font-family: sans-serif;
+    color: rgb(230, 82, 151);
+    text-align: center;
+    font-weight: bold;
+}
+
+fieldset {
+    border: 0;
+}
+
+.global {
+    width: 531px;
+    height: 500px;
+    background-color: pink;
+    margin-left: 425px;
+    border-radius: 10px;
+    border: 1px solid deeppink
+}
+
+.cadastro {
+    text-align: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+#nome {
+    font-size: 15px;
+    width: 150px;
+}
+
+#sobrenome {
+    font-size: 15px;
+    width: 150px;
+}
+
+.idade {
+    margin: 10px;
+    margin-left: 24px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#idade {
+    width: 100px
+}
+
+.email {
+    margin: 10px;
+    margin-left: 24px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#email {
+    width: 300px
+}
+
+.senhas {
+    text-align: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+#senha {
+    width: 200px
+}
+
+#confirmar-senha {
+    width: 200px
+}
+
+button {
+    width: 125px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-left: 200px;
+    font-size: 17px;
+    color: pink;
+    background-color: black;
+}
+
+button a {
+    color: #f00887;
+    text-decoration: none;
+}
+
+h2 {
+    margin: 10px;
+    text-align: center;
+}
+
+#selecione {
+    margin: 10px;
+    font-size: 20px;
+}
+
+#cartao {
+    font-size: 20px;
+}
+
+.numero-cartao {
+    margin: 10px;
+    margin-left: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 13px
+}
+
+#numero-cartao {
+    width: 200px
+}
+
+.codigo-seguranca {
+    margin: 10px;
+    margin-left: 11px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: -2px;
+}
+
+#codigo-seguranca {
+    width: 80px
+}

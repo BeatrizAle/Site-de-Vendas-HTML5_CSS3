@@ -1,0 +1,149 @@
+.containers-lateral .card-lateral1 {
+    width: 220px;
+    height: 292px;
+    background-color: lightpink;
+    margin-top: -955px;
+    margin-left: 40px;
+    border-radius: 7px;
+}
+
+.containers-lateral .card-lateral1 h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.containers-lateral .card-lateral1 .info-lateral1 {
+    display: flex;
+}
+
+.containers-lateral .card-lateral1 .info-lateral1-2 {
+    display: flex;
+}
+
+.containers-lateral .card-lateral1 .info-lateral1-3 {
+    display: flex;
+}
+
+.containers-lateral .card-lateral1 .info-lateral1 .foto-lateral1-1 {
+    width: 50px;
+    height: 50px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.containers-lateral .card-lateral1 .info-lateral1 p {
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+.containers-lateral .card-lateral1 .info-lateral1-2 .foto-lateral1-2 {
+    width: 50px;
+    height: 50px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.containers-lateral .card-lateral1 .info-lateral1-2 p {
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+.containers-lateral .card-lateral1 .info-lateral1-3 .foto-lateral1-3 {
+    width: 50px;
+    height: 50px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.containers-lateral .card-lateral1 .info-lateral1-3 p {
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+.containers-lateral .card-lateral2 {
+    margin-top: 55px;
+    margin-left: 40px;
+    border-radius: 7px;
+    width: 220px;
+    height: 292px;
+    background-color: lightpink;
+}
+
+.containers-lateral .card-lateral2 .info-lateral2 {
+    display: flex;
+}
+
+.containers-lateral .card-lateral2 .info-lateral2-2 {
+    display: flex;
+}
+
+.containers-lateral .card-lateral2 .info-lateral2-3 {
+    display: flex;
+}
+
+.containers-lateral .card-lateral2 h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.containers-lateral .card-lateral2 .info-lateral2 .foto-lateral2-1 {
+    width: 50px;
+    height: 50px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.containers-lateral .card-lateral2 .info-lateral2 p {
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+.containers-lateral .card-lateral2 .info-lateral2-2 .foto-lateral2-2 {
+    width: 50px;
+    height: 50px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.containers-lateral .card-lateral2 .info-lateral2-2 p {
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+.containers-lateral .card-lateral2 .info-lateral2-3 .foto-lateral2-3 {
+    width: 50px;
+    height: 50px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.containers-lateral .card-lateral2 .info-lateral2-3 p {
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+.containers-lateral .card-lateral3 {
+    width: 220px;
+    height: 292px;
+    background-color: lightpink;
+    border-radius: 7px;
+    margin-top: 33px;
+    margin-left: 40px;
+    border-radius: 7px;
+}
+
+.containers-lateral .card-lateral3 .foto-lateral3 {
+    width: 220px;
+    height: 223px;
+}
+
+.containers-lateral .card-lateral3 h1 {
+    font-size: 20px;
+}
+
+.containers-lateral .card-lateral3 button {
+    margin-left: 142px;
+    background-color: black;
+    color: pink;
+    border-radius: 5px;
+}
